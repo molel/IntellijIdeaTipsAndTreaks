@@ -1,7 +1,7 @@
 public class Worker extends Person {
-    private double salary;
+    private float salary;
 
-    public double getSalary() {
+    public float getSalary() {
         return salary;
     }
 
@@ -9,7 +9,7 @@ public class Worker extends Person {
         this.salary = salary;
     }
 
-    public Worker(String name, int age, float weight, float height, double salary) {
+    public Worker(String name, int age, float weight, float height, float salary) {
         super(name, age, weight, height);
         this.salary = salary;
     }
